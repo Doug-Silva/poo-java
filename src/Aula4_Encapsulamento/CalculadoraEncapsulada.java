@@ -1,4 +1,4 @@
-package Aula4;
+package Aula4_Encapsulamento;
 
 public class CalculadoraEncapsulada {
 

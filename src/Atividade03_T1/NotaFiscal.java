@@ -9,8 +9,9 @@ public class NotaFiscal {
 	float precoItem1; 
 	float precoItem2;
 	
-//  Metodos:
-//	float calculaNotaFiscal(); “calcula o total da nota, baseado na fórmula (precoItem1 + precoItem2)/2 e retorna o resultado” 
+//  Métodos:
+	
+//	float calculaNotaFiscal(); “calcula o total da nota, baseado na fórmula (precoItem1 + precoItem2) e retorna o resultado” 
 //	String mostraNomeItem1() “retorna o nome do item 1” 
 //	String mostraNomeItem2() “retorna o nome do item 2”
 	

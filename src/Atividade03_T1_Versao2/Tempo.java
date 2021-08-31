@@ -41,13 +41,13 @@ public class Tempo {
 		Tempo temperaturaRS = new Tempo();
 		temperaturaRS.setTemperatura(9.5f);
 		
-        System.out.println("A temperatura no RS está: " + temperaturaRS.statusTempo());
+        System.out.println("A temperatura no RS está: " + temperaturaRS.statusTempo() + "°C");
         System.out.println("\n");
         
         Tempo temperaturaBahia = new Tempo();
         temperaturaBahia.setTemperatura(29.7f);
         
-        System.out.println("A temperatura na Bahia está: " + temperaturaBahia.statusTempo());
+        System.out.println("A temperatura na Bahia está: " + temperaturaBahia.statusTempo() + "°C");
         System.out.println("\n");
         
 	}

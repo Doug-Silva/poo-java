@@ -23,11 +23,11 @@ public class Computador {
 	public static void main(String[] args) {
 		
 		Computador pc1 = new Computador();
-		pc1.nome = "Pedro";
-		pc1.clock = 1200;
+		pc1.nome = "Samsung";
+		pc1.clock = 3;
 				
-		System.out.println("Computador de: " + pc1.mostraNomeComputador());
-		System.out.println("Clock do Computador: " + pc1.mostraClock());
+		System.out.println("Nome do Computador: " + pc1.mostraNomeComputador());
+		System.out.println("Clock do Computador: " + pc1.mostraClock() + "GHz");
 	}
 
 }

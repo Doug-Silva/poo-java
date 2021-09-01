@@ -6,11 +6,11 @@ public class ContaBancariaComConstrutor2 {
         
         ContaBancariaComConstrutor conta1;
         
-        conta1 = new ContaBancariaComConstrutor("Gustavo", 223344, 0133, 0, 500);
+//      conta1 = new ContaBancariaComConstrutor("Gustavo", 223344, 0133, 0, 500);
         
 //      conta1 = new ContaBancariaComConstrutor("Gustavo", 223344, 0133, 500);
         
-//      conta1 = new ContaBancariaComConstrutor("Gustavo", 223344, 0133);
+        conta1 = new ContaBancariaComConstrutor("Gustavo", 223344, 0133);
         
 //      conta1 = new ContaBancariaComConstrutor();        
 //      conta1.setAgencia(0133);

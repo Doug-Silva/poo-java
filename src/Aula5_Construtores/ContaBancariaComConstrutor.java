@@ -2,12 +2,13 @@ package Aula5_Construtores;
 
 public class ContaBancariaComConstrutor {
 
-//  Atributos
+// Atributos:
+	
   private float saldo, limite;
   private int numero, agencia;
   private String nome;
 
-  //Construtores
+// Construtores:
   
   public ContaBancariaComConstrutor() {}
   
@@ -35,7 +36,7 @@ public class ContaBancariaComConstrutor {
       this.limite = lim;        
   }
   
-//  Métodos
+// Métodos:
   
   public float getSaldo() {
       return saldo;

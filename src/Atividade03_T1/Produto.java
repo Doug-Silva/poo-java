@@ -30,22 +30,22 @@ public class Produto {
 		Produto produt1 = new Produto();
 		produt1.nome = "Sabao em pó";
 		produt1.preco = 10.2f;
-		produt1.descricao = "\nDescricao do produto: \r\n\n"
-							+ "Este produto contém 90g\r\n"
-							+ "Este produto contém glúten\r\n"
-							+ "Sabor chocolate ao leite";
-		
-		Produto produt2 = new Produto();
-		produt2.nome = "Chocolate";
-		produt2.preco = 5.2f;
-		produt2.descricao = "\nDescricao do produto: \r\n\n"
+		produt1.descricao = "Descricao do produto: \r\n\n"
 							+ "Remove as manchas na primeira lavagem\r\n"
 							+ "Rende 630 kg de roupas limpas e sem resíduos\r\n"
 							+ "Pó ultrafino que dissolve rapidamente\r\n"
 							+ "Remove as manchas na primeira lavagem\r\n"
 							+ "É um produto mais sustentável\r\n"
 							+ "Cuida das cores das roupas";
-        
+		
+		Produto produt2 = new Produto();
+		produt2.nome = "Chocolate";
+		produt2.preco = 5.2f;
+		produt2.descricao = "Descricao do produto: \r\n\n"
+							+ "Este produto contém 90g\r\n"
+							+ "Este produto contém glúten\r\n"
+							+ "Sabor chocolate ao leite";
+				
 		System.out.println("Nome: " + produt1.mostraNomeProduto());
 		System.out.println("Preço: " + produt1.mostraPreco());
 		produt1.mostradescricaoProduto();

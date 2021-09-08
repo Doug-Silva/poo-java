@@ -10,8 +10,10 @@ public class Mae {
 
 	//Construtores
 
-	public Mae(String nomeDaMae) {
-		this.nomeMae = nomeDaMae;
+	public Mae(String nomeMae, Filho filho1, Filho filho2) {
+		this.nomeMae = nomeMae;
+		this.filho1 = filho1;
+		this.filho2 = filho2;
 	}
 
 	//Getters and Setters

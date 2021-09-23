@@ -1,4 +1,4 @@
-package Atividade05_T1_Exerc1;
+package Atividade05_T1_Exercicio1;
 
 public class Turma {
 
@@ -10,8 +10,10 @@ public class Turma {
 
 	//Construtores
 
-	public Turma(String nameturm) {
+	public Turma(String nameturm, Aluno alun1, Aluno alun2) {
 		this.nomeTurma = nameturm;
+		this.aluno1 = alun1;
+		this.aluno2 = alun2;
 		      
 	}
 	

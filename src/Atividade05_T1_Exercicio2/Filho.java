@@ -1,4 +1,4 @@
-package Atividade05_T1_Exerc2;
+package Atividade05_T1_Exercicio2;
 
 public class Filho {
 

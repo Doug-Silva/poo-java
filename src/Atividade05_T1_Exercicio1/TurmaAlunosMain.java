@@ -1,4 +1,4 @@
-package Atividade05_T1_Exerc1_ver2;
+package Atividade05_T1_Exercicio1;
 
 public class TurmaAlunosMain {
 

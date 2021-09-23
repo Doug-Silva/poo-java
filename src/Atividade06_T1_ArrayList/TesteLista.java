@@ -4,8 +4,11 @@ public class TesteLista {
 
 	public static void main(String[] args) {
 		
+		//FamiliaLista familia = new FamiliaLista("Joao", "Maria", 
+				//"Cesar", "Douglas", "Gabrielle");
+		
 		FamiliaLista familia = new FamiliaLista("Joao", "Maria", 
-				"Cesar", "Douglas", "Gabrielle");
+				"Cesar", "Douglas", "Gabrielle", "Aline");
 
 		Endereco endereco = new Endereco("Av Borges de Medeiros", 1001, 
 				"Apto 33", "90003-122", "RS", "Brasil");

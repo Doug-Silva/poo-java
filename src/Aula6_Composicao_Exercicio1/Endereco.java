@@ -1,4 +1,4 @@
-package Aula6_Composicao;
+package Aula6_Composicao_Exercicio1;
 
 public class Endereco {
 	

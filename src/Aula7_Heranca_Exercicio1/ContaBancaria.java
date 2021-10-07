@@ -1,39 +1,22 @@
-package Aula6_Composicao;
+package Aula7_Heranca_Exercicio1;
 
 public class ContaBancaria {
 
-    //Atributos
+//  Atributos:
 	
-	private float saldo, limite;
-	private int numero, agencia;
+//	private float saldo, limite;
+//	private int numero, agencia;
+	protected float saldo, limite;
+	protected int numero, agencia;	
 	
-	//Construtor
-
-	public ContaBancaria() {}
-	
-	public ContaBancaria(int num, int ag) {
-		this.numero = num;
-		this.agencia = ag;
-		this.saldo = 0;
-		this.limite = 500;		
-	}
-	
-	public ContaBancaria(int num, int ag, float lim) {
-		this.numero = num;
-		this.agencia = ag;
-		this.saldo = 0;
-		this.limite = lim;		
-	}
-	
-	public ContaBancaria(int num, int ag, 
-			             float saldo, float lim) {
+	public ContaBancaria(int num, int ag, float saldo, float lim) {
 		this.numero = num;
 		this.agencia = ag;
 		this.saldo = saldo;
 		this.limite = lim;		
 	}
 	
-	//Métodos
+//	Métodos:
 	
 	public float getSaldo() {
 		return saldo;
@@ -92,6 +75,14 @@ public class ContaBancaria {
 			System.out.println("Operacao realizada com sucesso");
 		else 
 			System.out.println("Operacao falhou");		
-	}	
+	}
 
+	@Override
+	public String toString() {
+		return "Saldo=" + saldo + 
+				",\n limite=" + limite + 
+				",\n numero=" + numero + 
+				",\n agencia=" + agencia;
+	}
+	
 }

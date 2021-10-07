@@ -1,4 +1,4 @@
-package Aula7_Comp_Exercicio1;
+package Aula6_Composicao_Exercicio2;
 
 public class Porta {
 

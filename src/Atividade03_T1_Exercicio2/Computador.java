@@ -1,4 +1,4 @@
-package Atividade03_T1_Exerc2;
+package Atividade03_T1_Exercicio2;
 
 public class Computador {
 	

@@ -2,7 +2,6 @@ package Aula8_Polimorfismo_Exercicio2;
 
 public class TesteShow {
 	
-	
 	public static void mostraIngressos(Ingresso ingresso) {
 		// Isso só funciona pois o toString esta sobrecarregado 
 		// em cada subclasse

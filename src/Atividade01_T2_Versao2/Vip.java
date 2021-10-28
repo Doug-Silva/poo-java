@@ -23,6 +23,4 @@ public class Vip extends Ingressos {
 			   "Hora máxima de chegada: " + hora;
 	}
 	
-	
-
 }

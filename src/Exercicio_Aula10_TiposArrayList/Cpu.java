@@ -1,6 +1,7 @@
 package Exercicio_Aula10_TiposArrayList;
 
 public class Cpu {
+	
 	private int clock;                                   
 	private String modelo;
 	

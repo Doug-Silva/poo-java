@@ -6,14 +6,14 @@ public class TestCarro {
 	
 	public static void main(String[] args) {
 		
-		ArrayList<Carro> lista;
-		lista = new ArrayList<Carro>();		
-	
-		lista.add(new Carro("Celta", "Vermelho", 890f));
-		lista.add(new Carro("Gol", "Branco", 976f));
+		ArrayList<Carro> carros = new ArrayList<Carro>();
 		
-		System.out.println(lista);
-		System.out.println("Itens na lista: " + lista.size());
+		carros.add(new Carro("Uno", "Branco", 1000));
+		carros.add(new Carro("Gol", "Vermelho", 1200));
+		
+		for (Carro carro : carros) {
+			System.out.println(carro);
+		}
 		
 	}
 	

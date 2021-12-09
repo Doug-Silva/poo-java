@@ -11,7 +11,6 @@ public class TestePadaria {
 		
 		Produto p1, p2, p3, p4;
 		 CarrinhoDeCompras minhasCompras = new CarrinhoDeCompras();
-		//CarrinhoDeCompras2 minhasCompras = new CarrinhoDeCompras2();
 		
 		p1 = new Pao("Pao teste", 1, "indefinida", TiposDePao.Baguete);
 
